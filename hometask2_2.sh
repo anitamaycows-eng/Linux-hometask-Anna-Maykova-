@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# The program receives a file and the name of the organism. Next, the file is processed.
+# The program throws an error if the organism is not found or if the file does not exist.
+
 file=$1
 organism=$2
 
