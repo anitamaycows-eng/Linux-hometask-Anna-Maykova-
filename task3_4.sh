@@ -16,4 +16,4 @@ else
 fi
 
 echo "Total size"
-#du -sh .
+du -sh .
