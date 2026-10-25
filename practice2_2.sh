@@ -1,12 +1,13 @@
 #!/bin/bash
 
-#This program changes extensions doc, pdf or txt to extension from the same range
+#This program changes extensions doc, pdf or txt to extensions from the same range
 #If file doesn't exist, the message about error is shown
 #If extension isn't in range, the message about error is shown
 
 ex1="doc"
 ex2="txt"
 ex3="pdf"
+
 name_file=$1
 ext_old=$2
 ext_new=$3
