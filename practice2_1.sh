@@ -1,7 +1,18 @@
 #!/bin/bash
 
-if [ $1 = "-l" ]; then
-  echo "$2" | tr [:lower:] [:upper:]
+#this program changes size of letters 
+# option "-l" means all letters will get upper
+# another option ("-u") means all letters will get lower
+
+option=$1
+string=$2
+
+if [[ $option == "-l" ]]
+then
+  echo ${string^^}
+elif [[ $option == "-u" ]]
+then
+  echo ${string,,}
 else
-  echo "$2" | tr [:upper:] [:lower:]
+  echo "The option $option isn't in range"
 fi
