@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#this program changes size of letters 
+#this program changes size of letter
 # option "-u" means all letters will get upper
 # another option ("-l") means all letters will get lower
 
