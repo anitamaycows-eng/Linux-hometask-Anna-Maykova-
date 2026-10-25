@@ -1,16 +1,16 @@
 #!/bin/bash
 
 #this program changes size of letters 
-# option "-l" means all letters will get upper
-# another option ("-u") means all letters will get lower
+# option "-u" means all letters will get upper
+# another option ("-l") means all letters will get lower
 
 option=$1
 string=$2
 
-if [[ $option == "-l" ]]
+if [[ $option == "-u" ]]
 then
   echo ${string^^}
-elif [[ $option == "-u" ]]
+elif [[ $option == "-l" ]]
 then
   echo ${string,,}
 else
